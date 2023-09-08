@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Steps;
+
+use Closure;
+
+class DummyStep
+{
+    /**
+     * Handle an incoming request.
+     *
+     * @return mixed
+     */
+    public function handle($request, Closure $next)
+    {
+
+        return $next($request);
+
+    }
+}
