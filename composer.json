@@ -1,5 +1,7 @@
 {
     "name": "heddiyoussouf/pipeline",
+    "description": "A Laravel package to simplify the use of pipelines with artisan commands for step generation and an intuitive facade interface.",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "Heddiyoussouf\\Pipeline\\": "src/"
